@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/program.dir/main.cpp.o CMakeFiles/program.dir/src/n3.cpp.o -o program 

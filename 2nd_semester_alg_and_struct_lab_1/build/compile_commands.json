@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build",
+  "command": "/usr/bin/g++  -I\"/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/include\" -g -std=gnu++17 -o CMakeFiles/program.dir/main.cpp.o -c \"/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/main.cpp\"",
+  "file": "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/main.cpp",
+  "output": "CMakeFiles/program.dir/main.cpp.o"
+},
+{
+  "directory": "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build",
+  "command": "/usr/bin/g++  -I\"/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/include\" -g -std=gnu++17 -o CMakeFiles/program.dir/src/n3.cpp.o -c \"/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/src/n3.cpp\"",
+  "file": "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/src/n3.cpp",
+  "output": "CMakeFiles/program.dir/src/n3.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build/CMakeFiles/program.dir
+/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build/CMakeFiles/edit_cache.dir
+/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build/CMakeFiles/rebuild_cache.dir
