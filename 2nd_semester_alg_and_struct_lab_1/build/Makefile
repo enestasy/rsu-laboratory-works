@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных"
+CMAKE_SOURCE_DIR = "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build"
+CMAKE_BINARY_DIR = "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build/CMakeFiles" "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/Задания к работе 1 по алгоритмам и структурам данных/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/n1.o: src/n1.cpp.o
+.PHONY : src/n1.o
+
+# target to build an object file
+src/n1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n1.cpp.o
+.PHONY : src/n1.cpp.o
+
+src/n1.i: src/n1.cpp.i
+.PHONY : src/n1.i
+
+# target to preprocess a source file
+src/n1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n1.cpp.i
+.PHONY : src/n1.cpp.i
+
+src/n1.s: src/n1.cpp.s
+.PHONY : src/n1.s
+
+# target to generate assembly for a file
+src/n1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n1.cpp.s
+.PHONY : src/n1.cpp.s
+
 src/n3.o: src/n3.cpp.o
 .PHONY : src/n3.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/n1.o"
+	@echo "... src/n1.i"
+	@echo "... src/n1.s"
 	@echo "... src/n3.o"
 	@echo "... src/n3.i"
 	@echo "... src/n3.s"
