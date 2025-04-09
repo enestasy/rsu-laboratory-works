@@ -177,6 +177,30 @@ src/n1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n1.cpp.s
 .PHONY : src/n1.cpp.s
 
+src/n2.o: src/n2.cpp.o
+.PHONY : src/n2.o
+
+# target to build an object file
+src/n2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n2.cpp.o
+.PHONY : src/n2.cpp.o
+
+src/n2.i: src/n2.cpp.i
+.PHONY : src/n2.i
+
+# target to preprocess a source file
+src/n2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n2.cpp.i
+.PHONY : src/n2.cpp.i
+
+src/n2.s: src/n2.cpp.s
+.PHONY : src/n2.s
+
+# target to generate assembly for a file
+src/n2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n2.cpp.s
+.PHONY : src/n2.cpp.s
+
 src/n3.o: src/n3.cpp.o
 .PHONY : src/n3.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/n1.o"
 	@echo "... src/n1.i"
 	@echo "... src/n1.s"
+	@echo "... src/n2.o"
+	@echo "... src/n2.i"
+	@echo "... src/n2.s"
 	@echo "... src/n3.o"
 	@echo "... src/n3.i"
 	@echo "... src/n3.s"

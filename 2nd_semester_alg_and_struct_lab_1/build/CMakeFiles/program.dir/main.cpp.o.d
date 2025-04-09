@@ -151,4 +151,6 @@ CMakeFiles/program.dir/main.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
  /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/include/n1.hpp \
- /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/include/n3.hpp
+ /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/include/n2.hpp \
+ /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/include/n3.hpp \
+ /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/include/n4.hpp

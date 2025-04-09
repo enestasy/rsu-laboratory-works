@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Добавление исполняемого файла
 add_executable(program
     src/n1.cpp
+    src/n2.cpp
     src/n3.cpp
     main.cpp
 )

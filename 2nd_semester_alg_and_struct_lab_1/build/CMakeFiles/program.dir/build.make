@@ -73,47 +73,62 @@ CMakeFiles/program.dir/src/n1.cpp.o: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/n1.cpp.o: /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n1.cpp
 CMakeFiles/program.dir/src/n1.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/program.dir/src/n1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/n1.cpp.o -MF CMakeFiles/program.dir/src/n1.cpp.o.d -o CMakeFiles/program.dir/src/n1.cpp.o -c "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n1.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/n1.cpp.o -MF CMakeFiles/program.dir/src/n1.cpp.o.d -o CMakeFiles/program.dir/src/n1.cpp.o -c "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n1.cpp"
 
 CMakeFiles/program.dir/src/n1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/n1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n1.cpp" > CMakeFiles/program.dir/src/n1.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n1.cpp" > CMakeFiles/program.dir/src/n1.cpp.i
 
 CMakeFiles/program.dir/src/n1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/n1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n1.cpp" -o CMakeFiles/program.dir/src/n1.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n1.cpp" -o CMakeFiles/program.dir/src/n1.cpp.s
+
+CMakeFiles/program.dir/src/n2.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/src/n2.cpp.o: /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n2.cpp
+CMakeFiles/program.dir/src/n2.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/src/n2.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/n2.cpp.o -MF CMakeFiles/program.dir/src/n2.cpp.o.d -o CMakeFiles/program.dir/src/n2.cpp.o -c "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n2.cpp"
+
+CMakeFiles/program.dir/src/n2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/n2.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n2.cpp" > CMakeFiles/program.dir/src/n2.cpp.i
+
+CMakeFiles/program.dir/src/n2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/n2.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n2.cpp" -o CMakeFiles/program.dir/src/n2.cpp.s
 
 CMakeFiles/program.dir/src/n3.cpp.o: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/n3.cpp.o: /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n3.cpp
 CMakeFiles/program.dir/src/n3.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/src/n3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/n3.cpp.o -MF CMakeFiles/program.dir/src/n3.cpp.o.d -o CMakeFiles/program.dir/src/n3.cpp.o -c "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n3.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/program.dir/src/n3.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/n3.cpp.o -MF CMakeFiles/program.dir/src/n3.cpp.o.d -o CMakeFiles/program.dir/src/n3.cpp.o -c "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n3.cpp"
 
 CMakeFiles/program.dir/src/n3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/n3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n3.cpp" > CMakeFiles/program.dir/src/n3.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n3.cpp" > CMakeFiles/program.dir/src/n3.cpp.i
 
 CMakeFiles/program.dir/src/n3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/n3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n3.cpp" -o CMakeFiles/program.dir/src/n3.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n3.cpp" -o CMakeFiles/program.dir/src/n3.cpp.s
 
 CMakeFiles/program.dir/main.cpp.o: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/main.cpp.o: /home/enestasy/Documents/RSU\ named\ after\ Kosygin/Programming\ and\ algorithms/Лабораторная\ Ирбитский/2nd_semester_alg_and_struct_lab_1/main.cpp
 CMakeFiles/program.dir/main.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/program.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/main.cpp.o -MF CMakeFiles/program.dir/main.cpp.o.d -o CMakeFiles/program.dir/main.cpp.o -c "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/program.dir/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/main.cpp.o -MF CMakeFiles/program.dir/main.cpp.o.d -o CMakeFiles/program.dir/main.cpp.o -c "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/main.cpp"
 
 CMakeFiles/program.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/main.cpp" > CMakeFiles/program.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/main.cpp" > CMakeFiles/program.dir/main.cpp.i
 
 CMakeFiles/program.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/main.cpp" -o CMakeFiles/program.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/main.cpp" -o CMakeFiles/program.dir/main.cpp.s
 
 # Object files for target program
 program_OBJECTS = \
 "CMakeFiles/program.dir/src/n1.cpp.o" \
+"CMakeFiles/program.dir/src/n2.cpp.o" \
 "CMakeFiles/program.dir/src/n3.cpp.o" \
 "CMakeFiles/program.dir/main.cpp.o"
 
@@ -121,11 +136,12 @@ program_OBJECTS = \
 program_EXTERNAL_OBJECTS =
 
 program: CMakeFiles/program.dir/src/n1.cpp.o
+program: CMakeFiles/program.dir/src/n2.cpp.o
 program: CMakeFiles/program.dir/src/n3.cpp.o
 program: CMakeFiles/program.dir/main.cpp.o
 program: CMakeFiles/program.dir/build.make
 program: CMakeFiles/program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable program"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/program.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

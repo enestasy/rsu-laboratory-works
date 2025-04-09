@@ -2,6 +2,8 @@
 #define N4_H
 
 #include <cstddef>
+#include <ostream>
+#include <istream>
 
 class Matrix {
     private:
@@ -10,7 +12,7 @@ class Matrix {
         size_t cols;
 
     public:
-        Matrix(size_t rows, size_t cols);
+        Matrix(size_t rows = 0, size_t cols = 0);
         ~Matrix();
         
 
@@ -18,6 +20,11 @@ class Matrix {
         Matrix operator*(const Matrix& other) const;
         Matrix operator*(const double& other) const;
         Matrix operator-(const Matrix& other) const;
+
+        Matrix& operator[](size_t row, size_t col) const;
+
+        ostream operator<<() const;
+
 
         Matrix transposition() const;
         double findDeterminant() const;
