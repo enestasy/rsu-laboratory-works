@@ -1,0 +1,3 @@
+/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles/program.dir
+/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles/edit_cache.dir
+/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/build/CMakeFiles/rebuild_cache.dir
