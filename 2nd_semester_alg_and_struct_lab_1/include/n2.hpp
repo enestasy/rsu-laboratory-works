@@ -1,5 +1,5 @@
-#ifndef N2_H
-#define N2_H
+#ifndef N2_HPP
+#define N2_HPP
 
 #include <cstddef>
 

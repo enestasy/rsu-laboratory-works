@@ -225,6 +225,30 @@ src/n3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n3.cpp.s
 .PHONY : src/n3.cpp.s
 
+src/n4.o: src/n4.cpp.o
+.PHONY : src/n4.o
+
+# target to build an object file
+src/n4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n4.cpp.o
+.PHONY : src/n4.cpp.o
+
+src/n4.i: src/n4.cpp.i
+.PHONY : src/n4.i
+
+# target to preprocess a source file
+src/n4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n4.cpp.i
+.PHONY : src/n4.cpp.i
+
+src/n4.s: src/n4.cpp.s
+.PHONY : src/n4.s
+
+# target to generate assembly for a file
+src/n4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/n4.cpp.s
+.PHONY : src/n4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... src/n3.o"
 	@echo "... src/n3.i"
 	@echo "... src/n3.s"
+	@echo "... src/n4.o"
+	@echo "... src/n4.i"
+	@echo "... src/n4.s"
 .PHONY : help
 
 

@@ -10,6 +10,7 @@ add_executable(program
     src/n1.cpp
     src/n2.cpp
     src/n3.cpp
+    src/n4.cpp
     main.cpp
 )
 

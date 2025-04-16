@@ -13,7 +13,7 @@ Encoder::Encoder(unsigned char const *new_key, size_t new_key_size)
     } else {
         key = nullptr;
     }
-    }
+}
 
 Encoder::~Encoder() {
     delete[] key;

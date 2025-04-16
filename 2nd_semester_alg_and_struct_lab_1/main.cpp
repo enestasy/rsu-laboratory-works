@@ -126,6 +126,56 @@ int main() {
         std::cout << "Modulus of c1: " << c1.getModulus() << std::endl;
         std::cout << "Argument of c1: " << c1.getArgument() << std::endl;
 
+        std::cout << "\nTASK 4\n\n" << std::endl;
+
+        Matrix m1(3, 3), m2(3, 3);
+
+        m1[0][0] = 1.0;
+        m1[0][1] = 2.0;
+        m1[0][2] = 3.0;
+        m1[1][0] = 4.0;
+        m1[1][1] = 5.0;
+        m1[1][2] = 6.0;
+        m1[2][0] = 7.0;
+        m1[2][1] = 8.0;
+        m1[2][2] = 9.0;
+
+        m2[0][0] = 1.5;
+        m2[0][1] = 2.6;
+        m2[0][2] = 3.7;
+        m2[1][0] = 4.8;
+        m2[1][1] = 5.9;
+        m2[1][2] = 6.1;
+        m2[2][0] = 7.2;
+        m2[2][1] = 8.3;
+        m2[2][2] = 9.4;
+
+        std::cout << "Matrix A:" << std::endl;
+        std::cout << m1 << std::endl;
+
+        std::cout << "Matrix A determinant:" << std::endl;
+        std::cout << m1.findDeterminant() << std::endl;
+
+        std::cout << "Matrix A inverse:" << std::endl;
+        std::cout << m1.findInverse() << std::endl;
+
+        std::cout << "Transposed matrix A:" << std::endl;
+        std::cout << m1.transposition() << std::endl;
+
+        std::cout << "Matrix A * 5:" << std::endl;
+        std::cout << m1 * 5 << std::endl;
+
+        std::cout << "Matrix B:" << std::endl;
+        std::cout << m2 << std::endl;
+
+        std::cout << "Matrix A + B:" << std::endl;
+        std::cout << m1 + m2 << std::endl;
+
+        std::cout << "Matrix A - B:" << std::endl;
+        std::cout << m1 - m2 << std::endl;
+
+        
+
 
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;

@@ -1,5 +1,5 @@
-#ifndef N3_H
-#define N3_H
+#ifndef N3_HPP
+#define N3_HPP
 
 #include <ostream>
 #include <istream>

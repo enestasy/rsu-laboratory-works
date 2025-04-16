@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n1.cpp" "CMakeFiles/program.dir/src/n1.cpp.o" "gcc" "CMakeFiles/program.dir/src/n1.cpp.o.d"
   "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n2.cpp" "CMakeFiles/program.dir/src/n2.cpp.o" "gcc" "CMakeFiles/program.dir/src/n2.cpp.o.d"
   "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n3.cpp" "CMakeFiles/program.dir/src/n3.cpp.o" "gcc" "CMakeFiles/program.dir/src/n3.cpp.o.d"
+  "/home/enestasy/Documents/RSU named after Kosygin/Programming and algorithms/Лабораторная Ирбитский/2nd_semester_alg_and_struct_lab_1/src/n4.cpp" "CMakeFiles/program.dir/src/n4.cpp.o" "gcc" "CMakeFiles/program.dir/src/n4.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
